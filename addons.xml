@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<addon id="tools.mc"
+       name="mc"
+       version="7.0.0"
+       provider-name="Stefan Saraev (seo at irc.freenode.net)">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>mc: visual file manager</summary>
+    <description>
+GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="debug.tools.evtest"
+       name="evtest"
+       version="7.0.0"
+       provider-name="unofficial.addon.pro">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>evtest: Simple tool for input event debugging.</summary>
+    <description>
+evtest is a simple tool for input event debugging.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="tools.strace"
+       name="strace"
+       version="7.0.0"
+       provider-name="unofficial.addon.pro">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>strace: Trace system calls and signals</summary>
+    <description>
+In the simplest case strace runs the specified command until it exits. It intercepts and records the system calls which are called by a process and the signals which are received by a process. The name of each system call, its arguments and its return value are printed on standard error or to the file specified with the -o option.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="shell.console.screen"
+       name="screen"
+       version="7.0.0"
+       provider-name="unofficial.addon.pro">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>terminal multiplexor with VT100/ANSI terminal emulation</summary>
+    <description>
+screen is a terminal multiplexor that runs several separate screens on a single physical character-based terminal. Each virtual terminal emulates a DEC VT100 plus several ANSI X3.64 and ISO 2022 functions. Screen sessions can be detached and resumed later on a different terminal.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>
