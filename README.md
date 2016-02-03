@@ -1,16 +1,17 @@
 # OPI_Openelec.unofficial-addons.repo
 =====================================
 
-First of all download this (repository addon - "opi unofficial repository")
+1. Download repository addon:
 https://github.com/gitchomik/OPI_Openelec.unofficial-addons.repo/raw/master/opi_unofficial.addon.pro-7.0.0.zip
 
-and install using this method;
+2. Install repository using this method:
 http://kodi.wiki/view/HOW-TO:Install_an_Add-on_from_a_zip_file
 
-Then install for examaple "transmission" addon (from "opi unofficial repository")
+3. Install any addon from repository for example "transmission" addon
 http://kodi.wiki/view/HOW-TO:Install_add-ons
 
 Currently supported addons:
+==========================
 
 - mc: visual file manager
 - evtest: simple tool for input event debugging
