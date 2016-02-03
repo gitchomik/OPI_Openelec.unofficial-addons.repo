@@ -1,14 +1,19 @@
-OPI_Openelec.unofficial-addons.repo
-===================================
+OpenELEC OPi unofficial addons
+==============================
 
-1. Download repository addon:
-https://github.com/gitchomik/OPI_Openelec.unofficial-addons.repo/raw/master/opi_unofficial.addon.pro-7.0.0.zip
+This is partialy compiled "OpenELEC unofficial addons" (https://github.com/OpenELEC/unofficial-addons/) for OrangePi.
 
-2. Install repository using this method:
-http://kodi.wiki/view/HOW-TO:Install_an_Add-on_from_a_zip_file
+1. Download repository addon
+
+  https://github.com/gitchomik/OPI_Openelec.unofficial-addons.repo/raw/master/opi_unofficial.addon.pro-7.0.0.zip
+
+2. Install repository using this method
+
+  http://kodi.wiki/view/HOW-TO:Install_an_Add-on_from_a_zip_file
 
 3. Install any addon from repository for example "transmission" addon
-http://kodi.wiki/view/HOW-TO:Install_add-ons
+
+  http://kodi.wiki/view/HOW-TO:Install_add-ons
 
 Currently supported addons
 ---------------------------
