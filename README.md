@@ -18,6 +18,8 @@ This is partialy compiled "OpenELEC unofficial addons" (https://github.com/OpenE
 Currently supported addons
 ---------------------------
 
+- docker: engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere.
+- btrfs-progs: tools for the btrfs filesystem
 - mc: visual file manager
 - evtest: simple tool for input event debugging
 - strace: trace system calls and signals
