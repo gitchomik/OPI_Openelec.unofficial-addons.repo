@@ -300,5 +300,51 @@ This program allows you to dump the traffic on a network. tcpdump is able to exa
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="service.system.docker"
+       name="docker"
+       version="7.0.4"
+       provider-name="Lukas Rusak (lorusak@gmail.com)">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Docker is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere.</summary>
+    <description>
+Docker containers can encapsulate any payload, and will run consistently on and between virtually any server. The same container that a developer builds and tests on a laptop will run at scale, in production*, on VMs, bare-metal servers, OpenStack clusters, public instances, or combinations of the above.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="tools.btrfs-progs"
+       name="btrfs-progs"
+       version="7.0.0"
+       provider-name="Lukas Rusak (lorusak@gmail.com)">
+  <requires>
+    <import addon="os.openelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>tools for the btrfs filesystem</summary>
+    <description>
+tools for the btrfs filesystem
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 </addons>
